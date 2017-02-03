@@ -10,7 +10,11 @@ namespace Sorting1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            int[] V = { 4, 6, 1, 3, 5, 7, 9, 5, 4, 23, 4, 6, 47, 568 };
+
+            foreach (int i in V)
+                Console.WriteLine(i);
+
             Console.ReadKey();
         }
     }
